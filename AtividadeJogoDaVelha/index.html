@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da velha</title>
-    <style>
-        div {
-            display: grid;
-            grid-template-columns: 100px 100px 100px;
-            align-items: center;
-            justify-content: center; 
-        }
-        input{
-            height: 200px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Jogo da velha</h2>
-    <div>
-    <input type="text"><input type="text"><input type="text"><input type="text"><input type="text"><input type="text"><input type="text"><input type="text"><input type="text">
+  <main>
+    <h1>JOGO DA VELHA</h1>
+    <hr aria-hidden="true" />
+    <div class="veia">
+      <button data-i="1"></button>
+      <button data-i="2"></button>
+      <button data-i="3"></button>
+      <button data-i="4"></button>
+      <button data-i="5"></button>
+      <button data-i="6"></button>
+      <button data-i="7"></button>
+      <button data-i="8"></button>
+      <button data-i="9"></button>
     </div>
-    
-    <script src="script.js"></script>
+    <h2 class="currentPlayer"></h2>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
