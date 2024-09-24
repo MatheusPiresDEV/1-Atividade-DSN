@@ -5,7 +5,7 @@ const currentPlayer = document.querySelector(".currentPlayer");
 let selected = Array(10).fill(null);
 let player = "X";
 
-// Definição das combinações possiveis
+// Definição combinações possiveis
 const positions = [
   [1, 2, 3],
   [4, 5, 6],
