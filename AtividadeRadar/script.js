@@ -3,12 +3,16 @@ function rodor() {
     var resp = document.getElementById("resp"); 
 
     if (n1 >= 80 && n1 <= 120) {
-        resp.innerHTML = "Multa -> media"; 
+        resp.innerHTML = `Velocidade ${n1} Multa -> média`; 
     }
-    if(n1 >= 121){
-        resp.innerHTML = "Multa -> grave"; 
+    else if (n1 >= 121) {
+        resp.innerHTML = `Velocidade ${n1} Multa -> grave`; 
     }
-    else{
+    else {
         resp.innerHTML = "👍"; 
     }
+}
+
+function refresh() {
+    window.location.reload();
 }
